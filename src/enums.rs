@@ -3,14 +3,14 @@
 fn main() {
 
     enum Iptype {
-        v4,
-        v6
+        v4(String),
+        v6(String),
     }
 
 
     struct Ipaddress{
         kind : Iptype,
-        address : String;
+        address : String,
     }
 
 
