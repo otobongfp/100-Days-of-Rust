@@ -2,21 +2,30 @@
 
 fn main() {
 
-    enum Iptype {
-        v4(String),
-        v6(String),
+    // enum Iptype {
+    //     v4(String),
+    //     v6(String),
+    // }
+
+
+    // let home = Iptype::v4(String::from("127:0:0:1"));
+
+    // let loopback = Iptype::v6(String::from("0.0.1"));
+
+    enum Message{
+        Quit,
+        Move {x:i32, y:i32},
+        Write(String),
     }
 
+    impl Message{
+        fn call(&self){
 
-    struct Ipaddress{
-        kind : Iptype,
-        address : String,
+        }
     }
 
+    let m = Message::Write(String::from("Hello Enum"));
+    m.call();
 
-    let home = Ipaddress{
-        kind: Iptype::v4,
-        address: String::from("127.0.0.1"),
-    };
-
+    fn main();
 }
