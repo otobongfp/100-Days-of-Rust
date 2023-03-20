@@ -1,5 +1,6 @@
 use std::io;
-fn main () {
+
+pub fn fibonacci() {
    println!("To end the program, type `exit` ");
    loop {
        println!("Type a positive integer");
