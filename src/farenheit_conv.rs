@@ -1,6 +1,6 @@
 use std::io;
 
-pub fn farenheit_conv() {
+pub fn conv() {
     //Purpose of App
     println!("FARENHEIT TO CELSIUS CONVERTER");
 
