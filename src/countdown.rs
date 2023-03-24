@@ -84,7 +84,6 @@ pub fn counter(){
         let mut value :u32 = num.parse().unwrap();
         value -= 1;
 
-
         for row in &DIGITS{
             for c in num.chars(){
                 let col:usize = match c{
