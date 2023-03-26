@@ -1,6 +1,6 @@
 use crate::farenheit_conv::conv;
 use crate::fibonacci::fibonacci;
-use crate::countdown::counter;
+use crate::countdown::counter1;
 use crate::generic_types::gen;
 use crate::collections::collections;
 
@@ -16,8 +16,9 @@ fn main() {
     println!("The different functions are commented out you can uncomment them to praactice with");
     //conv();
     //fibonacci();
-    //counter();
-    collections();
+    //counter1();
+    //collections();
     //gen();
+    counter1();
 
 }
