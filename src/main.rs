@@ -12,13 +12,13 @@ pub mod collections;
 
 
 fn main() {
-    print!("Excertps of codes you can play with");
-    println!("The different functions are commented out you can uncomment them to praactice with");
+
+    println!("The different functions are commented out you can uncomment them to run the code");
     //conv();
     //fibonacci();
     //counter1();
-    //collections();
+    collections();
     //gen();
-    counter1();
+    //counter1();
 
 }
