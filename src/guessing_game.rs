@@ -4,9 +4,9 @@ use std::cmp::Ordering;
 
 fn main() {
     println!("________A GUESSING GAME_________");
-    println!("Guess a number between 1 and 5:");
+    println!("Guess a number between 1 and 10:");
 
-    let _secret_number = rand::thread_rng().gen_range(1..=5);
+    let _secret_number = rand::thread_rng().gen_range(1..=10);
 
 
     loop{
