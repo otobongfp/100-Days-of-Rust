@@ -3,12 +3,14 @@ use crate::fibonacci::fibonacci;
 use crate::countdown::counter1;
 use crate::generic_types::gen;
 use crate::collections::collections;
+use crate::traits::traits;
 
 pub mod farenheit_conv;
 pub mod fibonacci;
 pub mod countdown;
 pub mod generic_types;
 pub mod collections;
+pub mod traits;
 
 
 fn main() {
@@ -17,8 +19,9 @@ fn main() {
     //conv();
     //fibonacci();
     //counter1();
-    collections();
+    //collections();
     //gen();
     //counter1();
+    //traits();
 
 }
